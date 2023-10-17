@@ -4,7 +4,7 @@
 # 41  42   43  44  45
 # 51  52   53  54  55
 
-num=5
+num=int(input("Enter the Number:-"))
 for i in range(1,num+1):
     for j in range(1,num+1):
         print(str(i)+str(j),end=" ")
