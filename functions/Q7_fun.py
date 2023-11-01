@@ -4,8 +4,11 @@
 #function that takes function as arguments
 # or retuen a function is called higher order argument
 
-def mysquare(x):
-    return x*x
+#the functions which take other functions as arguments
 
-d= mysquare
-print(d(4))
+# three types of HOC
+# filter()
+# map()
+# reduce()
+# syntax 
+# filter(function_name,iterable)

@@ -4,15 +4,21 @@
 #     Input: calculate_area(shape="rectangle", length=5, width=4)
 #     Expected Output: 20
 
-def calculateArea(shape,length=None,width=None,radius=None):
-    if shape== "reactangle":
-        return length * width
+def calculate_area(shape,length=None,width=None,redius=None):
+    if shape=="ractangle":
+        area_reactangle=length*width
+        print("area of reactangle is " , area_reactangle)
     elif shape=="circle":
-        return 3.14* radius**2
-    else:
-        return "invalide"
+        area_of_circle=3.14*redius*redius
+        print("area of circlr is " ,area_of_circle)
+
+calculate_area(shape="ractangle",length=5,width=5)
+calculate_area(shape="circle",redius=5)
     
-print(calculateArea(shape="reactangle",length=5,width=4))
+
+
+
+
 
 
 

@@ -3,13 +3,13 @@
 # Input: sum_numbers(1, 2, 3)
 # Expected Output: 6
 
-def sum_number(*arg,name):
+def sum_number(*arg):
     sum=0
     for i in arg:
         sum=sum+i
     print(sum)
-    print(name)
+sum_number(1,2,3)
 
-sum_number(1,2,3,name="hello")
+
 
 

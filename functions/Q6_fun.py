@@ -15,3 +15,19 @@ def sum_avg(*args):
     print(sum,avg)
 
 sum_avg(1,2,3,4,5)
+
+
+def sum_avg(num):
+    sum=0
+    length=len(num)
+    for i in num:
+        sum=sum+i
+    avg=sum/length
+    print(sum,avg)
+    
+
+sum_avg([1,2,3,4,5])
+
+
+
+    

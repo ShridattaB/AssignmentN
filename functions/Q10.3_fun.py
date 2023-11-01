@@ -12,7 +12,16 @@ def fact(n):
     else:
         return n * fact(n-1)
     
-print(fact(64))
+print(fact(4))
+
+
+def factorial(n):
+    if n==1:
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+print(factorial(4))
 
 
 
