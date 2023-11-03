@@ -18,12 +18,11 @@
 # import os
 # os.rename("user_input.txt", "user_data.txt")
 
-# file= open("user_data.txt","a+")
-# file.write("\nThis is another user-entered sentence.")
-# file.seek(0)
-# data=file.read()
-# print("user_data.txt (file content):\n" + data)
+file= open("user_data.txt","a+")
+file.write("\nThis is another user-entered sentence.")
+file.seek(0)
+data=file.read()
+print("user_data.txt (file content):\n" + data)
 
-file=open("user_data.txt","r")
-print(file.read())
+
 
