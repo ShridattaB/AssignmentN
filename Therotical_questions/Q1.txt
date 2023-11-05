@@ -1,0 +1,120 @@
+Define what a class is in Python and why it is useful
+
+ANS:- Class is like blueprint or templete of object 
+which defines the sturucture and behaviour of object
+Classes in Python are like containers that hold both data (attributes) and actions (methods) related to a specific concept. They're useful because they help you keep your code organized, making it easier to reuse and manage.
+
+Explain the purpose of the __init__ method in a class.
+ 
+<!-- The __init__ method in a class is used to initialize the attributes and state of an object
+ when an instance of the class is created. It acts as a constructor. -->
+
+Objects are instances of classes
+In Python, an object is a self-contained unit that combines data (attributes) and functions (methods) into a single entity
+
+
+
+
+
+Attrivute: Any vairable that is bound in class is attributes
+method: any functions within the class is nothing but method
+
+
+To create an object of a class in Python, define the class and then instantiate an object using the class name followed by parentheses, passing any required parameters to the class's 
+
+Class variables are defined within the class but outside of any class methods. Instance variables are defined within class methods, typically the constructor
+
+
+
+
+
+
+Question: Define what a class is in Python and why it is useful.
+Answer: A class in Python is a blueprint for creating objects.
+ It defines attributes (data) and methods (functions) that objects of the 
+ class will have. Classes are useful for modeling real-world entities and organizing
+code into reusable structures.
+
+
+
+
+
+Question: Explain the purpose of the __init__ method in a class.
+Answer: The __init__ method in a class is a constructor that gets called when
+ an object is created from the class. It's used to initialize 
+ object-specific attributes and perform setup actions.
+
+
+
+
+Question: What is an object in Python, and how is it related to a class?
+Answer: An object in Python is an instance of a class, 
+representing a specific entity or data structure defined by that class. 
+Objects are created based on the class blueprint and have their own unique attribute values.
+
+
+
+
+Question: What is the role of the self parameter in class methods?
+Answer: The self parameter in class methods refers to the instance (object) itself. 
+It is used to access and modify object-specific attributes and methods within the class.
+
+
+
+
+
+Question: Define the terms "attribute" and "method" in the context of classes.
+Answer: In the context of classes, an "attribute" is a variable 
+that stores data associated with an object, while a "method" is a 
+function that defines behavior or actions that objects of the class can perform.
+
+
+
+
+Question: How do you create an object of a class in Python?
+Answer: To create an object of a class in Python, you define the 
+class, and then instantiate an object using the class name followed by parentheses, 
+passing any required parameters to the class's constructor.
+
+
+
+
+Question: Differentiate between a class variable and an instance variable.
+Answer: A class variable is shared among all instances of a class 
+and is defined at the class level. An instance variable is unique 
+to each object created from the class and is defined within the object's constructor.
+
+
+
+
+
+
+Question: How can you access the attributes of an object in Python?
+Answer: You can access the attributes of an object in Python using the 
+dot notation with the object's name (e.g., object.attribute). This allows 
+you to read and modify attribute values.
+
+
+
+
+Question: Define what a constructor is and how it relates to the __init__ method.
+Answer: A constructor in Python is a method that initializes object attributes 
+when an object is created. The __init__ method serves as the constructor for a class, 
+defining how objects should be initialized.
+
+
+
+
+
+Question: Explain the concept of class instantiation.
+Answer: Class instantiation refers to the process of creating an 
+object (instance) of a class. It involves calling the class's constructor 
+(usually __init__) to set up the object with initial values and behavior.
+
+
+
+
+
+
+
+

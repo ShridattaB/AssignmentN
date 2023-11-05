@@ -10,5 +10,5 @@ for i in range(1,num+1):
         if i==j:
             print(str(j)+str(i),end=" ")
         else:
-            print(end="   ")
+            print(end=" ")
     print()

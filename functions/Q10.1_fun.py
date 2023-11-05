@@ -4,26 +4,16 @@
 #      Expected Output: 1,2,3,4,5 
 
 
-    
+
+
 def numbers(n):
-    if n==1:
-        print(n)
-    else:     
-        numbers(n-1)
-        print(n)
-        
-numbers(4)
+    if n==0:
+        return
+    numbers(n-1)
+    print(n, end=" ")
+numbers(5)
 
-
-
-# def numbers(n):
-#     if n==6:
-#         return
-#     print(n)
-#     numbers(n+1)
-# numbers(1)
-
-
+    
 
 
 

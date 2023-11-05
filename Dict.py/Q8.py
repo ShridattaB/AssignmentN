@@ -12,4 +12,4 @@ Dictionary_1= {'a': 1, 'b': 2, 'c': 3}
 Dictionary_2= {'b': 2, 'c': 3, 'd': 4}
 for i in Dictionary_1:
     for i in Dictionary_2:
-        print(i,end="")
+        print(i,end=" ")

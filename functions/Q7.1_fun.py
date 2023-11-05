@@ -22,5 +22,8 @@ def product(num):
 def apply_function(num,fun):
     fun(num)
 
+# def apply_function(num,fun):
+#     fun(num)
+
 apply_function([1,2,3,4],sum)
 apply_function([1,2,3,4],product)

@@ -7,5 +7,9 @@
 # Explanation: The program should access the value associated with the key 'age' and print it
 
 dict1={'name': 'John', 'age': 25, 'city': 'New York'}
-age=dict1['age']
-print("the age is ", age)
+# age=dict1['age']
+# print("the age is ", age)
+for i in dict1.items():
+    print(i)
+
+

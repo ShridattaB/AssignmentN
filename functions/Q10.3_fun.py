@@ -6,13 +6,13 @@
 # Input: factorial(5)
 # Expected Output: 120
 
-def fact(n):
-    if n==1:
-        return n
-    else:
-        return n * fact(n-1)
+# def fact(n):
+#     if n==1:
+#         return n
+#     else:
+#         return n * fact(n-1)
     
-print(fact(4))
+# print(fact(4))
 
 
 def factorial(n):
@@ -22,8 +22,6 @@ def factorial(n):
         return n * factorial(n-1)
     
 print(factorial(4))
-
-
 
 
 

@@ -9,12 +9,11 @@
 
 Grades = {'math': 90, 'science': 85, 'history': 75}
 data=Grades.values()
-print(data)
-# sum=0
-# len=len(data)
-# for i in data:
-#     sum=sum+i
-# avg=sum/len
+sum=0
+len=len(data)
+for i in data:
+    sum=sum+i
+avg=sum/len
 
-# print( "Average grade:",avg)
+print( "Average grade:",avg)
 

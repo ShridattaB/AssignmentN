@@ -64,8 +64,8 @@
 
 # *Bitwise Operators:*
 # a) Perform bitwise AND operation # Display the result
-# num1 = 3 
-# num2 = 5  
+# num1 = 5
+# num2 = 1  
 # result = num1 & num2
 # print(result)
 
@@ -73,8 +73,10 @@
 # bitwise operator are used to compare binary number 
 # b) Implement a program to toggle the nth bit of a number.
 
-
-
+# num1 = 5
+# num2 = 1  
+# result = num1 ^ num2
+# print(result)
 
 
 
@@ -118,11 +120,11 @@
 # a= "shridatt"
 # for i in range(10):
 #     print(a)
-# *List Operators:*
 
+# *List Operators:*
 # a) Write a program to add an element at the end of a list.
 # list1= [2,3,4,5]
-# list1[1]='2'
+# list1.append(3)
 # print(list1)
 # b) Implement a Python program to concatenate two lists.
 # list1= [2,"name ",3]
@@ -135,7 +137,8 @@
 # a) Write a Python program that uses the ternary operator to determine the maximum of two numbers.
 # num1=20
 # num2=30
-# result= "num1 is greater" if num1>num2 else "num1 is smaller"
+# result= "num1 is greater" if num1> num2 else "num2 is greater"
+# print(result)
 
 # b) Write a program to determine if a given number is even or odd using the ternary operator.
 # num=20
@@ -177,11 +180,19 @@
 # Nested For Loop:
 
 # a) Write a program to print a multiplication table from 1 to 10 using a nested for loop.
+# num=10
+# for i in range (1,num+1):
+#     for j in range(1,num+1):
+#         print(f"{i}*{j}={i*j}")
+#     print()
 
 # Test Case 1:
 
 # Input for multiplication table: 5
 # Expected Output: Multiplication table for 5:
+# num=5
+# for i in range(1,num+1):
+#     print(f"{num}*{i}={num*i}")
 
 # 1 x 5 = 5
 # 2 x 5 = 10
@@ -196,19 +207,42 @@
 # 22
 # 333
 # 4444
+# num=4
+# for i in range(num+1):
+#     for j in range(i):
+#         print(i,end="")
+#     print()
+
 # a **While Loop:**
 
 # a) Write a Python program to print numbers from 1 to 10 using a while loop.
 
 # Expected Output: Numbers from 1 to 10: 1 2 3 4 5 6 7 8 9 10
+# i=1
+# while i <=10:
+#     print(i,end=" ")
+#     i=i+1
 
 # b) Implement a program to calculate the sum of numbers from 1 to a user-provided limit using a while loop.
+# num=10
+# i=1
+# sum=0
+# while i<=num:
+#     sum=sum+i
+#     i=i+1
+# print(sum)
 
 # Input for sum calculation: 5
 # Expected Output: The sum of numbers from 1 to 5 is 15
 
 # Do-While Loop (Simulated using a While Loop):
 # a) Write a program to repeatedly ask the user for input until they enter 'q'.
+while True:
+    variable=input("enter a variable")
+    if variable=="q":
+        break
+
+
 
 # Input for 'q' simulation: 'a', 'b', 'q'
 # Expected Output: The program repeatedly asks for input until 'q' is entered.
