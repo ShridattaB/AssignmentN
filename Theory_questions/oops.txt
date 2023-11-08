@@ -1,0 +1,19 @@
+inheritance: is the ability ti inherit the the features properties
+or the attribute and methods from already existing
+classes to newer classes
+
+why inhertitance-
+class derivedclassname(baseclassname)
+#class defination)
+
+
+method overloading:- suppose we took method from parent class but some our wown wthod is differrnce or our oew properties are different
+then we crete new mwnthod of same behaviour called as mehtod overrind
+Q3
+
+Q4Inheritance in Python lets you create new classes that can inherit attributes and methods from existing classes. 
+This helps reuse code, organize classes hierarchically, and extend functionality, making your code more efficient 
+and easier to maintain. It's a fundamental concept in object-oriented programming.
+
+Q5 Can a class inherit from multiple classes in Python? If yes, how is multiple inheritance implemented?
+Yes, Python supports multiple inheritance, which means a class can inherit from more than one base class

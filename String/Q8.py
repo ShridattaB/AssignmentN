@@ -10,11 +10,15 @@
 # Sample Output:
 # output_string = "The Quick Brown Fox"
 
-input_string = "the quick brown fox".split()
-for i in input_string:
-    new_varible=i.title()
-    new_varible="".join(new_varible)
-    print(new_varible,end=" ")
+# input_string = "the quick brown fox".split()
+# for i in input_string:
+#     new_varible=i.title()
+#     new_varible="".join(new_varible)
+#     print(new_varible,end=" ")
+
+input_string = "the quick brown fox"
+title=input_string.title()
+print(title)
 
 
 

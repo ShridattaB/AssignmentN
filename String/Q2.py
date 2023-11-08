@@ -3,7 +3,6 @@
 # Sample Input:
 # input_string = "python"
 
-
 # Sample Output:
 # output_string = "nohtyp"
 

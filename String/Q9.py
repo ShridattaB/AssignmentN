@@ -7,7 +7,13 @@
 
 # Sample Output:
 # word_count = 5
+def word_count(str):
+    return len(str.split())
+print(word_count("This is a sample sentence."))
 
-input_string = "This is a sample sentence."
-words=input_string.split()
-print(len(words))
+
+# input_string = "This is a sample sentence."
+# words=input_string.split()
+# print(len(words))
+
+

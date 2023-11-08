@@ -1,0 +1,48 @@
+  Benefits of using Python:
+  First mostly useful is it is easy to learn and use its synatx is easy to understand 
+  Because of its simplicity, Python's fundamentals can be implemented faster than those in other programming languages.
+
+  
+  
+What is a dynamically typed language?
+dynamically typed language is language where e dont want to declear
+a data type during a excution time and python is one of from that
+
+
+PEP8 PEP* is nothing but python praposal enhasment praposal
+it provide guidelice for code layout ,identation,naming convention that help ake code 
+readble and easy
+
+what is scope of pyhton
+versatile language in fields like data science, machine learning, web development,
+ and more. Its simplicity, vast library support, and active community ensure
+  its relevance and growth in the coming years."
+
+
+
+Q1 . What are lists and tuples? What is the key difference between the two?
+list and tubles are nothing but builtin data typrs in python it used to store a data in single vairable
+main difference is list is mutable and tuple is unmutable 
+
+Q2, what are common data types in python
+Numeric data types: int, float
+String data types: str.
+Sequence types: list, tuple,
+Mapping data type: dict.
+Boolean type: bool.
+Set data types: set,
+
+The pass statement is used as a placeholder for future code.
+When the pass statement is executed, nothing happens, but you avoid getting an error
+
+
+
+a module is a single file containing python code, whereas a package is a collection of modules that are organized i
+n a directory hierarchy
+
+
+
+In Python, global attributes can be accessed from anywhere, protected attributes are
+meant for internal 
+use but can still be accessed using an underscore prefix, and private attributes are
+ intentionally hidden and not easily accessible from outside the class.
