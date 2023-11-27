@@ -33,6 +33,22 @@
 # Task 12: Create instances of the `AccountHolder`, `Account`, and `BankBranch` classes and demonstrate their functionality by performing account operations and displaying account details.
 
 
+# account_holder1 = AccountHolder("John Doe", "123 Main St", "555-1234")
+# account_holder2 = AccountHolder("Jane Smith", "456 Oak St", "555-5678")
+
+# account1 = Account("123456", account_holder1, 1000.0)
+# account2 = Account("789012", account_holder2, 2000.0)
+
+# main_street_branch = BankBranch("Main Street Branch")
+
+# main_street_branch.add_account(account1)
+# main_street_branch.add_account(account2)
+
+# main_street_branch.display_accounts()
+
+# account1.deposit(500.0)
+# account2.withdraw(300.0)
+
 
 
 
@@ -42,12 +58,9 @@ class AccountHolder():
         self.Address=Address
         self.Contact_no=Contact_No
 
-account_holder1 = AccountHolder("John Doe", "123 Main St", "555-1234")
-account_holder2 = AccountHolder("Jane Smith", "456 Oak St", "555-5678")
-
-
-class Account():
-    def __init__(self,Ac_no,Acc_holder,balance):
+class Account(AccountHolder):
+    def __init__(self, name, Address, Contact_No,Ac_no,Acc_holder,balance):
+        super().__init__(name, Address, Contact_No)
         self.account_number=Ac_no
         self.account_holder=Acc_holder
         self.balance=balance
@@ -58,27 +71,43 @@ class Account():
     def deposit(self,amount):
         self.amount=amount
         self.balance= self.balance + self.amount
-        return self.balance
+        return ("deposite_done Avilable Balance:-"), self.balance
 
     def withdraw(self,amount):
         self.amount=amount
         self.balance= self.balance-self.amount
-        return self.balance
-
-class BankBranch():
-    def __init__(self,branch_name,Accounts):
-        self.Branch_name=branch_name
-        self.Accounts=Accounts
-
-    def add_account(self,add_acc):
-        self.add_acc=add_acc
-        self.Accounts=self.Accounts+self.add_acc
+        return ("widhraw_done Avilable Balance:-",self.balance)
 
 
+# Task 8: Create a class called `BankBranch` with the following attributes:
+#   - branch_name (string)
+#   - accounts (a list to store Account objects)
+
+class BankBranch(Account):
+    def __init__(self, name, Address, Contact_No, Ac_no, Acc_holder, balance,branch_name):
+        super().__init__(name, Address, Contact_No, Ac_no, Acc_holder, balance)
+        self.branch_name=branch_name
+
+
+# Task 10: Implement a method called `add_account` in the `BankBranch`
+#  class that adds an Account object to the list of accounts.
+    
+    def add_account(self,accounts):
+        self.account=accounts
+        return 
+    
     def display_accounts(self):
-        return self.Branch_name , self.Accounts
-    
+        return (f"""Account Details:-
+name:-{self.Name}
+Address:-{self.Address}
+Contact_No:-{self.Contact_no}
+Ac_no:-{self.account_number}
+Acc_holder:-{self.account_holder}
+balance:-{self.balance}
+branch_name:-{self.branch_name}""")
 
 
+person1=BankBranch("John Doe", "123 Main St", "555-1234","123456", "account_holder1", 1000.0,"Main Street Branch")
 
-    
+
+print(person1.display_accounts())
