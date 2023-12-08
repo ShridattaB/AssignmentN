@@ -1,0 +1,51 @@
+Try Block:
+
+"The try block is where I put the code that might cause an error."
+Except Block:
+
+"The except block is like a backup plan. If something goes wrong in the try block, the code inside except is there to fix the problem or handle it gracefully."
+Else Block:
+
+"The else block is for things that should happen only if everything in the try block goes smoothly. It's like a reward for no errors."
+Finally Block:
+
+"The finally block is like a safety net. It always runs, no matter what happens in the try block. Good for cleanup or making sure something important gets done."
+
+
+
+The try block is where you put code that might have an issue,
+and Python attempts to run it, but if something goes wrong, the except block deals with it.
+
+
+
+
+
+
+***in try block we put that code which might give error
+to del with this error we ttake help of except block 
+else is used if try block run smoothly without giving any error
+finally block excute if error occer or not which indicates the excution of program is done***
+
+
+Describe the role of the except block in handling exceptions.
+ Can it handle multiple types of exceptions? If so, how?
+
+**Role of except block is to handle to error which occurs in try block 
+yes exception block multiple type of  exception
+example like value error type error ,index error**
+
+Discuss the significance of the finally block and when
+ it is executed in relation to the try and except blocks.
+
+**finally block occers when excution of code is done no matter 
+what happens in the preceding try and except blocks.
+no any relation to try and else block
+it commonly use for closing the given progrm or file**
+
+How can you obtain information about the exception that occurred within 
+the except block?
+**by using as keyword we obtaion information
+except error as a
+print(a)**
+
+

@@ -1,0 +1,23 @@
+1.Explain the difference between MySQL and a relational database.
+Provide examples of relational database features supported by MySQL.
+Ans:-mysql is a relational databse 
+relational database menas a database where we store a data in the form of rows and coumn
+ie in the form of tables
+
+
+Describe the primary key in a MySQL table.
+How is it different from a unique key, and why is it important in database design?
+primary key is a uniqy indetitf column in a table 
+the main diff unique key and primary key is primary key is not null
+
+
+What is the purpose of the JOIN clause in MySQL?
+Provide an example of a situation where a JOIN operation would be beneficial.
+join is used to combine join the two table 
+suppose in student table we give only name roll address
+and in sub table give sub_name , id,subid
+ 
+
+
+
+

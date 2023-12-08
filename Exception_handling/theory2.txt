@@ -1,0 +1,42 @@
+
+Handling exceptions in a program is important because it helps prevent the entire program from crashing when unexpected issues occur. In simple terms,
+
+ it's like having a safety net to catch errors. 
+
+ Explain the difference between the except and finally blocks.
+ except block run when there is any code occer in try block 
+ and **finally block occers when excution of code is done no matter 
+what happens in the preceding try and except blocks. 
+
+
+
+You can catch multiple types of exceptions in a single except block by 
+listing the exception types inside parentheses, separated by commas. Here's an example:
+python
+Copy code
+try:
+    value = int("abc")
+    result = 10 / 0
+except (ValueError, ZeroDivisionError) as e:
+    print("Error:", e)
+In this example, the except block catches both ValueError
+ (when trying to convert "abc" to an integer) and ZeroDivisionError
+  (when attempting to divide by zero).
+  The variable e will contain information about the specific exception that occurred,
+   and you can use it to handle or print details about the error.
+
+
+You might use the else block in a try-except statement when you have code that should only run
+ if the try block executes successfully without raising any exceptions.
+  The else block provides a way to separate the code that might raise exceptions
+   from the code that should only run when there are no exceptions
+
+In what situations would you use the finally block,
+ and what tasks are typically performed within it?
+
+ basically final block indiacters 
+ the excution of code is done which aslo indicates closing the 
+ file or the excution of program is done
+
+ 
+In Python, you can raise a custom exception using the raise keyword.

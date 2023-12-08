@@ -1,0 +1,21 @@
+What i module
+its just file having/ containing a python code
+some statement variable definations or classes
+ex:-A module in Python is like a toolkit. Imagine you have a toolkit for math,
+and inside it, there are tools for adding, subtracting, multiplying, and dividing. Each tool does a specific job. In Python
+, a module is similar – it's a file where you keep related tools (functions, variables, or classes) together.
+
+if we people working on same project 
+and i have 100  question and want to add some more questions 
+more than one people working
+easy to manage our program
+
+
+
+User
+3. What is a docstring in Python?
+Why is it important to include docstrings
+ in your code, especially in functions and
+  modules?
+A docstring in Python is a way to describe what your code does.
+

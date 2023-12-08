@@ -91,11 +91,7 @@ class BankBranch(Account):
 
 # Task 10: Implement a method called `add_account` in the `BankBranch`
 #  class that adds an Account object to the list of accounts.
-    
-    def add_account(self,accounts):
-        self.account=accounts
-        return 
-    
+
     def display_accounts(self):
         return (f"""Account Details:-
 name:-{self.Name}
@@ -109,5 +105,9 @@ branch_name:-{self.branch_name}""")
 
 person1=BankBranch("John Doe", "123 Main St", "555-1234","123456", "account_holder1", 1000.0,"Main Street Branch")
 
+print(person1.deposit(200))
+print(person1.deposit(200))
 
-print(person1.display_accounts())
+
+acc ={1:["acc_n","bal","street"],
+       2:["acc_n","bal","street"]}
